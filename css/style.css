@@ -1,0 +1,54 @@
+.lato{ font-family: "lato"; font-weight: 300;}
+.latolight{ font-family: "lato"; font-weight: 100;}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  margin: 0 auto;
+  display: block;
+  border-left: 0;
+  border-right: 0;
+  background: #FFF;
+}
+
+*.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.interface{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.intro{ 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center; 
+    text-transform: uppercase; 
+    color: #000;
+}
+
+.intro > div{ 
+    position: absolute;
+    top: 0; 
+    width: 100%; 
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%); 
+}
+
+.lato{ font-size: 1.8em; letter-spacing: 0.6em; color: #000;}
+.latolight{ font-size: 0.7em; letter-spacing: 0.6em;  color: #000;}
+
+
